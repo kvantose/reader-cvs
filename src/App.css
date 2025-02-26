@@ -1,8 +1,24 @@
 #root {
-  max-width: 1280px;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+}
+
+
+.card-paginator {
+  height: 250px;
+}
+
+@media screen and (max-width: 1024px) {
+  .card-paginator {
+    height: 400px;
+  }
+}
+
+.img-paginator {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;  
 }
 
 .logo {
